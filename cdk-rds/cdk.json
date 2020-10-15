@@ -1,0 +1,28 @@
+{
+  "app": "python app.py",
+  "versionReporting": false,
+  "context": {
+    "account_id": "404791673985",
+    "region": "ap-northeast-1",
+    "dbname": "test",
+    "username": "root",
+    "password": "oktobeme",
+    "host": "cdk-rds-mysql.c41jzgnpxnkp.ap-northeast-1.rds.amazonaws.com",
+    "lambda": {
+      "timeout": 60,
+      "memory_size": 1024,
+      "vpc_id": "vpc-01d77335c8726734f",
+      "subnets": [
+        {
+          "az": "ap-northeast-1a",
+          "subnet_id": "subnet-05fff97fdd6c0c292"
+        },
+        {
+          "az": "ap-northeast-1c",
+          "subnet_id": "subnet-00f11ff8a671148e9"
+        }
+      ],
+      "sg_id": "sg-0367b564488a8ef70"
+    }
+  }
+}
